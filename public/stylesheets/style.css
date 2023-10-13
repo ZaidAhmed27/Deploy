@@ -1,0 +1,362 @@
+body{
+  background-color:  #c9c9c9;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+.main{
+  background-color: #282829;
+}
+
+/* This is the header css */
+
+.header {
+  border: 1px solid #000; 
+  padding: 10px; 
+}
+
+header>nav{
+
+      display: flex;
+      align-items: center;
+      background-color: #282829;
+      height: 85px;
+      padding: auto;
+
+}
+
+.Title{
+  color: rgb(116, 147, 233);
+  width: 185px;
+padding-left: 40px;
+padding-top: 5px;
+}
+
+
+nav>ul{
+  margin: 0 650px;
+  list-style: none;
+  display: flex;
+}
+
+nav > ul > li:nth-child(1),
+nav > ul > li:nth-child(2),
+nav > ul > li:nth-child(3),
+nav > ul > li:nth-child(4){
+  padding-right: 44px;
+  font-size: 28px;
+  color: rgb(116, 147, 233);
+
+}
+
+nav > ul > li:nth-child(1) > a,
+nav > ul > li:nth-child(2) > a,
+nav > ul > li:nth-child(3) > a,
+nav > ul > li:nth-child(4) > a{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(116, 147, 233);
+}
+
+
+nav > ul > li:nth-child(1) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(79, 101, 163);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(1) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(2) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(79, 101, 163);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(2) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(3) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(79, 101, 163);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(3) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(4) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(79, 101, 163);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(4) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.img{
+  padding-left: 10px;
+}
+
+/* This is the about css */
+
+.About{
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  color: rgb(100, 71, 168);
+  padding-bottom: 15px;
+  border-radius:5px;
+}
+
+
+.project-pic {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.About{
+  font-size: 45px;
+  color: rgb(100, 71, 168);;
+  text-decoration-color:  rgb(62, 16, 170);
+  background-image: url(img\bc.jpg)
+}
+
+
+.Dash{
+    color: rgb(100, 71, 168);
+    font-size: 20px;
+    font-weight:700 ;
+
+}
+
+.Paragraph{
+    font-size: 25px;
+    font-weight:700 ;
+    font-style: italic;
+    width: 50%;
+    margin: auto;
+    line-height: 23px;
+    color: rgb(100, 71, 168);
+}
+
+.Book{
+  font-size: 18px;
+  font-weight:700 ;
+  text-decoration: none;
+  color: white;
+border-style:solid;
+border-radius: 5px;
+border-color: rgb(100, 71, 168);
+background-color: rgb(100, 71, 168);
+
+}
+
+/* This is the footer css */
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #282829;
+  height: auto;
+  padding: 20px; 
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  border: 1px solid #000; 
+  padding: 10px; 
+}
+
+.logo-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design {
+  color: rgb(79, 101, 163);
+  margin: 0 10px; 
+}
+
+.design > a {
+  color: rgb(79, 101, 163);
+}
+
+.footer-text {
+  margin-top: 20px; 
+}
+
+.copy {
+  color: rgb(79, 101, 163);
+  padding-top: 10px;
+}
+
+
+/* This is the contact css */
+
+
+.contact-container{
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  color: rgb(100, 71, 168);
+  padding-bottom: 15px;
+  border-radius:5px;
+  background-color: #bbbbbb;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+/* Style the contact form section */
+.contact-form {
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.contact-form h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid rgb(100, 71, 168);
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: inline;
+  min-height: 75px;
+}
+
+button[type="submit"] {
+  background-color: rgb(116, 147, 233);;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(37, 87, 224);
+}
+
+
+.Projects {
+  text-align: center;
+  background-color: #282829;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.project {
+  text-align: left;
+  background-color: white;
+  border-radius: 5px;
+  width: 45%;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  flex: 0 0 calc(45% - 40px); 
+}
+
+.secondTitle {
+  color: rgb(100, 71, 168);
+  font-size: 35px;
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-bottom: 10px; 
+}
+
